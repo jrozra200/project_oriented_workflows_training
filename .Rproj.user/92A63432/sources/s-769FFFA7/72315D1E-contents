@@ -1,0 +1,10 @@
+library(tidyverse)
+
+ipt <- installed.packages() %>% 
+    as_tibble()
+ipt
+
+install.packages("usethis")
+library(usethis)
+
+use_course("rstd.io/wtf-explore-libraries")

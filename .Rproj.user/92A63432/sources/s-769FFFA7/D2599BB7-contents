@@ -1,0 +1,8 @@
+install.packages(c("usethis", "devtools", "fs", "here", "rmarkdown", "knitr", "tidyverse"))
+library(lattice)
+devtools::install_github("jimhester/lookup")
+devtools::install_github("jimhester/lookup")
+.Library
+Sys.getenv()
+fs::path_real(.Library)
+.Library
